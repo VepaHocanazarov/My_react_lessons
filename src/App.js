@@ -30,4 +30,5 @@ class App extends Component {
 
 export default App;
 
+
 // Propuslar --> bir componentden diger bir componente sabit verileri aktarmak istiyorsam Propuslardan yararlanılır.
