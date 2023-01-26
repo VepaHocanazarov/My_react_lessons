@@ -10,11 +10,14 @@ import './deneme.css'
 class App extends Component {
   render() {
 
+    const title = "React Egitimi";
+    const descrition = "Daha yolun başindayiz";
+
     return (
       <div className="container">
        <h1>Merhaba Dünya</h1>
 
-        <Vepa /> 
+        <Vepa başlik = {title} aciklama = {descrition} /> 
         <Aygul/>
 
 
